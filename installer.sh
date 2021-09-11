@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # ==============================================
-# SCRIPT : DOWNLOAD AND INSTALL xstreamity #
+# SCRIPT : DOWNLOAD AND INSTALL -xstreamity #
 # =====================================================================================================================
 # Command: wget https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/installer.sh -O - | /bin/sh #
 # =====================================================================================================================
@@ -10,7 +10,7 @@
 # Plugin	... Enter Manually
 ########################################################################################################################
 
-PACKAGE_DIR='xstreamity/main'
+PACKAGE_DIR='-xstreamity/main'
 MY_IPK="enigma2-plugin-extensions-xstreamity_3.16_all.ipk"
 MY_DEB="eenigma2-plugin-extensions-xstreamity_3.16_all.deb"
 
