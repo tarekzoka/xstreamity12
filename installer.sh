@@ -3,6 +3,8 @@
 #
 # SCRIPT : DOWNLOAD AND INSTALL -xstreamity
 #
+opkg remove enigma2-plugin-extensions-xstreamity 
+wait
 ###########################################
 #command: wget https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/installer.sh -O - | /bin/sh
  #
@@ -10,8 +12,6 @@ MY_EM="*************************************************************************
 #!/bin/sh
 #
 
-opkg remove enigma2-plugin-extensions-xstreamity 
-wait
 wget -O /tmp/xstreamity_3.16_all.ipk "ttps://github.com/tarekzoka/-xstreamity/blob/main/enigma2-plugin-extensions-xstreamity_3.16_all.ipk"
 
 wait
