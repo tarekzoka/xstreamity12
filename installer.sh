@@ -7,11 +7,11 @@
 #command: wget https://raw.githubusercontent.com/tarekzoka/xstreamity/main/installer.sh -O - | /bin/sh
  #
 MY_EM="*********************************************************************************"
-wget -O /tmp/iptosat_1.8_all.ipk "https://raw.githubusercontent.com/tarekzoka/iptosat/main/xstreamity_3.16_all.ipk"
+wget -O /tmp/xstreamity_3.16_all.ipk "https://raw.githubusercontent.com/tarekzoka/xstreamity/main/xstreamity_3.16_all.ipk"
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN xstreamit ###
-opkg install --force-overwrite/tmp/enigma2-plugin-extensions-xstreamity_3.16_all.ipk
+opkg install --force-overwrite /tmp/enigma2-plugin-extensions-xstreamity_3.16_all.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
