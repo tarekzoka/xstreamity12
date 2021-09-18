@@ -7,7 +7,7 @@
 #command: wget https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/installer.sh -O - | /bin/sh
  #
 MY_EM="*********************************************************************************"
-wget -O /tmp/xstreamity_3.16_all.ipk "https://raw.githubusercontent.com/tarekzoka/xstreamity/main/-xstreamity_3.16_all.ipk"
+wget -O /tmp/xstreamity_3.16_all.ipk "https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/xstreamity_3.16_all.ipk"
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN xstreamit ###
