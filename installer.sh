@@ -12,7 +12,7 @@ MY_EM="*************************************************************************
 
 wget -O /tmp/xstreamity_3.16_all.ipk "ttps://github.com/tarekzoka/-xstreamity/blob/main/enigma2-plugin-extensions-xstreamity_3.16_all.ipk"
 wait
-opkg remove enigma2-plugin-extensions-xstreamity wait
+opkg remove enigma2-plugin-extensions-xstreamity 
 wait
 opkg update
 wait
