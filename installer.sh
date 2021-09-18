@@ -1,7 +1,7 @@
   
 #!/bin/sh
 #
-# SCRIPT : DOWNLOAD AND INSTALL XCPLUGIN
+# SCRIPT : DOWNLOAD AND INSTALL -xstreamity
 #
 ###########################################
 #command: wget https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/installer.sh -O - | /bin/sh
