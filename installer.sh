@@ -11,7 +11,7 @@ wget -O /tmp/iptosat_1.8_all.ipk "https://raw.githubusercontent.com/tarekzoka/ip
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN xstreamit ###
-opkg install --force-overwrite /tmp/enigma2-plugin-extensions-xstreamity_3.16_all.ipk
+opkg install --force-overwrite/tmp/enigma2-plugin-extensions-xstreamity_3.16_all.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
