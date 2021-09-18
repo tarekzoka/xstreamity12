@@ -14,7 +14,7 @@ wget -O /tmp/xstreamity_3.16_all.ipk "ttps://github.com/tarekzoka/-xstreamity/bl
 wait
 opkg update
 wait
-opkg install --force-overwrite /tmp/*.ipk
+opkg install --force-overwrite /tmp/enigma2-plugin-extensions-xstreamity_3.16_all.ipk
 wait
 sleep 2;
 exit 0
