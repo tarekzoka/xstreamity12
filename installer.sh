@@ -21,4 +21,4 @@ wait
 opkg install /tmp/*.ipk
 sleep 2;
 exit 0
-https://github.com/tarekzoka/-xstreamity/blob/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk
+
