@@ -16,5 +16,6 @@ opkg update
 wait
 opkg install --force-overwrite /tmp/enigma2-plugin-extensions-xstreamity_3.16_all.ipk
 wait
+opkg install /tmp
 sleep 2;
 exit 0
