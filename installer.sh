@@ -13,8 +13,7 @@ MY_EM="*************************************************************************
 
 wget -O /tmp/xstreamity_3.18.20210917_all.ipk "https://github.com/tarekzoka/-xstreamity/raw/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
 
-wait
-opkg update && opkg install --force-overwrite /tmp/*.ipk
+wait opkg install --force-overwrite /tmp/*.ipk
 wait
 opkg install --force-overwrite /tmp/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk
 wait
