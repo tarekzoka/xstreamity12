@@ -4,8 +4,7 @@
 #
 ###########################################
 #command: wget https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/installer.sh -O - | /bin/sh
- #
-MY_EM="*********************************************************************************"
+wait
 opkg install --force-overwrite  https://github.com/tarekzoka/-xstreamity/raw/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk
 wait
 sleep 2;
