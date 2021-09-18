@@ -16,10 +16,10 @@ echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
 rm -r /var/volatile/tmp/xstreamity_3.18.20210917_all.ipk 
 echo "========================================================================" 	
-echo ". WELCOME TO PLUGIN XCPLUGIN "
+echo ". WELCOME TO PLUGIN xstreamity "
 echo $MY_EM
 	echo " PLUGIN INSTALLED SUCCESSFULLY "
-echo " UPLOADED BY EMIL_NABIL " 
+echo " UPLOADED BY tare_ham " 
 echo "======================================================"
 echo "       YOUR DEVICE WELL RESTART Now " 
 echo "****************************************"
