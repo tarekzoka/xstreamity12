@@ -15,7 +15,7 @@ opkg install --force-overwrite/tmp/var/*.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
-opkg install /var/volatile/tmp/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk
+opkg install --force-overwrite /var/volatile/tmp/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk
 echo "========================================================================" 	
 echo ". WELCOME TO PLUGIN -xstreamity "
 echo $MY_EM
