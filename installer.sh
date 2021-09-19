@@ -15,7 +15,7 @@ opkg install --force-overwrite /tmp/*.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
-rm -r /tmp/xstreamity_1.8_all.ipk 
+rm -r /tmp/xstreamity_3.18.20210917_all.ipk 
 echo "========================================================================" 	
 echo ". WELCOME TO PLUGIN -xstreamity "
 echo $MY_EM
