@@ -7,7 +7,7 @@
 #command: wget https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/installer.sh -O - | /bin/sh
  #
 MY_EM="*********************************************************************************"
-wget -O /tmp/xstreamity_3.18.20210917_all.ipk "https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
+wget -O /var/volatile/tmp/xstreamity_3.18.20210917_all.ipk "https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN xstreamity ###
@@ -15,7 +15,7 @@ opkg install --force-overwrite/tmp/var/*.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
-opkg install /tmp/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk
+opkg install /var/volatile/tmp/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk
 echo "========================================================================" 	
 echo ". WELCOME TO PLUGIN -xstreamity "
 echo $MY_EM
