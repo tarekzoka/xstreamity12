@@ -7,7 +7,7 @@
 #command: wget https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/installer.sh -O - | /bin/sh
  #
 MY_EM="*********************************************************************************"
-wget -O /tmp/var/xstreamity_3.18.20210917_all.ipk "https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
+wget -O /tmp/xstreamity_3.18.20210917_all.ipk "https://raw.githubusercontent.com/tarekzoka/-xstreamity/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN xstreamity ###
