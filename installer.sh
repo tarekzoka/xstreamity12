@@ -11,7 +11,7 @@ wget -O /tmp/xstreamity_3.18.20210917_all.ipk "https://raw.githubusercontent.com
 wait
 echo $MY_EM
 ######      INSTALL PLUGIN xstreamity ###
-opkg install --force-overwrite /tmp/*.ipk
+opkg install --force-overwrite/var/tmp/*.ipk
 wait
 echo $MY_EM
 #######   REMOVE PACKAGE FROM TMP ###
