@@ -7,7 +7,7 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tarekzoka/enigma2-plugin-extensions-xstreamity_3.92_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tarekzoka/xstreamity12/raw/main/enigma2-plugin-extensions-xstreamity_3.92_all.ipk
 echo ". >>>>         RESTARING     <<<<"
 echo "**********************************************************************************"
 wait
