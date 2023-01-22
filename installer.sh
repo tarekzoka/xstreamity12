@@ -8,4 +8,4 @@
 echo
 opkg install --force-overwrite  https://github.com/tarekzoka/xstreamity12/raw/main/enigma2-plugin-extensions-xstreamity_3.92_all.ipk
 wait
-exit 0     ,
+exit 0q
