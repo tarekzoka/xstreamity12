@@ -10,4 +10,4 @@ rm -r /tmp/xstreamity.tar.gz
 
 killall -9 enigma2
 
-sleep 2;w
+sleep 2;
