@@ -1,18 +1,15 @@
 #!/bin/sh
 #
 
-wget -O /tmp/enigma2-plugin-extensions-xstreamity_4.40.20240309_all.deb "https://github.com/tarekzoka/xstreamity12/raw/main/enigma2-plugin-extensions-xstreamity_4.40.20240309_all.deb"
+wget -O /tmp/xstreamity_4.40.tar.xz "https://raw.githubusercontent.com/tarekzoka/xstreamity12/main/xstreamity_4.40.tar.xz"
 
-wait
+tar -xzf /tmp/*.tar.gz -C /
 
-#!/bin/sh
+rm -r /tmp/xstreamity_4.40.tar.xz
 
-dpkg -i /tmp/*.deb
+echo "         UPLOADED BY TARK_HANFY    "
 
-wait
 
-rm -f /tmp/enigma2-plugin-extensions-xstreamity_4.40.20240309_all 
+killall -9 enigma2
 
-wait
 sleep 2;
-
