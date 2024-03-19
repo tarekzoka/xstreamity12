@@ -1,15 +1,16 @@
+#!/bin/bash
+######################################################################################
+## Command=wget https://raw.githubusercontent.com/tarekzoka/xstreamity12/main/installer-os.sh -O - | /bin/sh
+###########################################
+###########################################
 #!/bin/sh
 #
-
-wget -O /tmp/xstreamity_4.40.tar.xz "https://raw.githubusercontent.com/tarekzoka/xstreamity12/main/xstreamity_4.40.tar.xz"
-
-tar -xzf /tmp/*.tar.gz -C /
-
-rm -r /tmp/xstreamity_4.40.tar.xz
-
-echo "         UPLOADED BY TARK_HANFY    "
-
-
-killall -9 enigma2
-
+wget -O /tmp/enigma2-plugin-extensions-xstreamity_4.40.20240309_all.deb "https://github.com/tarekzoka/xstreamity12/blob/main/enigma2-plugin-extensions-xstreamity_4.40.20240309_all.deb?raw=true"
+wait
+apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
+wait
+dpkg -i --force-overwrite /tmp/*.deb
+wait
 sleep 2;
+
+
