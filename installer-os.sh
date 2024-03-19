@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-wget -O /tmp/xstreamity_4.40.20240309_all.deb "https://github.com/tarekzoka/xstreamity12/blob/main/enigma2-plugin-extensions-xstreamity_4.40.20240309_all.deb"
+wget -O /tmp/xstreamity_4.40.20240309_all.deb "https://github.com/tarekzoka/xstreamity12/main/enigma2-plugin-extensions-xstreamity_4.40.20240309_all.deb"
 
 wait
 
